@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>iFrame</h1>
+
+    <h2>embedding link into iframe</h2>
+
+    <ul>
+      <li><a target="frame1" href="./links.html">link</a></li>
+      <li><a target="frame2" href="./inner-link.html">inner link</a></li>
+    </ul>
+
+    <iframe
+      name="frame1"
+      src="./inner-link.html"
+      width="400"
+      height="400"
+      frameborder="1"
+    ></iframe>
+
+    <!-- iFrame is in line element so require br here -->
+
+    <iframe
+      name="frame2"
+      src="http://example.com"
+      width="400"
+      height="400"
+      frameborder="1"
+    ></iframe>
+  </body>
+</html>
